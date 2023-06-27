@@ -20,12 +20,12 @@ h4,
 h5,
 h6,
 p {
-        margin: 0;
+        margin: 0 auto;
 }
 
 ul {
-        margin: 0;
-        padding: 0;
+        margin: 0 auto;
+        padding: 0 auto;
 }
 
 .container {
@@ -588,7 +588,7 @@ img {
         fill: var(--footer-text-color);
 }
 
-.footer-sub {
+/* .footer-sub {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -644,6 +644,63 @@ img {
 .sub-btn:focus {
         background-color: #404BBF;
 }
+.svg-sub-icon {
+        margin-left: 16px;
+} */
+.sub-btn-form {
+        padding-left: 80px;
+}
+.sub-form {
+        display: flex;
+        gap: 24px;
+}
+
+.footer-sub {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+        margin-right: 16px;
+}
+
+.modal-input-footer {
+        width: 264px;
+        height: 40px;
+        border: 1px solid #ffffff;
+        background-color: transparent;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        padding-left: 16px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        color: #ffffff;
+}
+
+.modal-input::placeholder {
+        color: #ffffff;
+}
+
+.sub-btn {
+        min-width: 165px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        cursor: pointer;
+        background-color: #4d5ae5;
+        border: none;
+        border-radius: 4px;
+}
+
 .svg-sub-icon {
         margin-left: 16px;
 }
@@ -735,6 +792,7 @@ img {
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         padding-left: 38px;
         outline: none;
+        outline: transparent;
 }
 .modal-input:focus {
         border-color:#4D5AE5;
@@ -779,6 +837,7 @@ img {
         border-radius: 4px;
         background-color: transparent;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        outline: transparent;
 }
 .textarea-wrap {
         position: relative;
@@ -791,7 +850,9 @@ img {
         letter-spacing: 0.04em;
         color: rgba(46, 47, 66, 0.40);
 }
-
+.checkbox-wrap {
+        margin-bottom: 24px;
+}
 .checkbox-style {
         font-size: 12px;
         line-height: 1.17;
@@ -820,7 +881,7 @@ img {
         color: var(--hf-logo-color);
         margin-left: 4px;
 }
-.btn {
+.btn-send {
         display: block;
         min-width: 169px;
         height: 56px;
@@ -837,19 +898,11 @@ img {
         border-radius: 4px;
         font-style: inherit;
         margin-top: 24px;
-}
-.send {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #ffffff;
-        cursor: pointer;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.btn:hover,
-.btn:focus {
+.btn-send:hover,
+.btn-send:focus {
         background-color: #404BBF;
 }
 
