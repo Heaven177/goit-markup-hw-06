@@ -20,12 +20,12 @@ h4,
 h5,
 h6,
 p {
-        margin: 0 auto;
+        margin: 0;
 }
 
 ul {
-        margin: 0 auto;
-        padding: 0 auto;
+        margin: 0;
+        padding: 0;
 }
 
 .container {
@@ -588,7 +588,7 @@ img {
         fill: var(--footer-text-color);
 }
 
-/* .footer-sub {
+.footer-sub { */
         font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
@@ -646,64 +646,8 @@ img {
 }
 .svg-sub-icon {
         margin-left: 16px;
-} */
-.sub-btn-form {
-        padding-left: 80px;
-}
-.sub-form {
-        display: flex;
-        gap: 24px;
-}
+} 
 
-.footer-sub {
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #FFFFFF;
-        margin-bottom: 16px;
-        margin-right: 16px;
-}
-
-.modal-input-footer {
-        width: 264px;
-        height: 40px;
-        border: 1px solid #ffffff;
-        background-color: transparent;
-        font-size: 12px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        padding-left: 16px;
-        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-        border-radius: 4px;
-        color: #ffffff;
-}
-
-.modal-input::placeholder {
-        color: #ffffff;
-}
-
-.sub-btn {
-        min-width: 165px;
-        height: 40px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Roboto", sans-serif;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #ffffff;
-        cursor: pointer;
-        background-color: #4d5ae5;
-        border: none;
-        border-radius: 4px;
-}
-
-.svg-sub-icon {
-        margin-left: 16px;
-}
 
 
 /** ----------MODAL WINDOW------------ */
